@@ -24,3 +24,7 @@ Solution:
 
 To test the solution run 
   `mvn clean test`
+  
+![test_case](test_case.png "Optional title")
+  
+
