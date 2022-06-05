@@ -12,7 +12,7 @@ Solution:
 1. DB Used: H2 In-Memory Database
 2. Used Regex and Factory design pattern to process logs (Important Classes - ProcesserEngine, ProcesserFactory, MatchProcesser).
     Observations:
-    1. We could use thrid party tools like logstash(ELK), Apache Spark etc but for this POC i kept it simple and didn't use 2rd party libs.
+    1. We could use thrid party tools like logstash(ELK), Apache Spark etc but for this POC i kept it simple and didn't use 3rd party libs.
     2. While processing logs printing number of processed logs count for - valid, invalid logs, not interested logs
 3. Used JPA Repository for query execution.
 4. While processing matches, I am storing payload as a string for reconciliation in case of any failure. 
