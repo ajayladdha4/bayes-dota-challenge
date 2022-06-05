@@ -84,7 +84,7 @@ public class DotaChallengeApplicationTests {
 				.contentType(MediaType.APPLICATION_JSON))
 //         .andDo(print())
 				.andExpect(status().isOk()).andExpect(jsonPath("$[0].target", is("bane")))
-				.andExpect(jsonPath("$[0].damage_instances", is(67))).andExpect(jsonPath("$[0].total_damage", is(3414)))
+				.andExpect(jsonPath("$[0].damage_instances", is(68))).andExpect(jsonPath("$[0].total_damage", is(3483)))
 				.andReturn(); //
 	}
 
