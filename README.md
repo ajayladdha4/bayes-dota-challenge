@@ -22,6 +22,8 @@ Solution:
     2. In ``DotaChallengeApplicationTests`` Total testcases are 10 for all endpoints.
     3. Make sure your java enviornment path is on JRE not JDK (If you will run java on JDK mvn clean test will give error).
 
+Note: In some cases damage before/after is not part of damage event so taking -1 value if it not present.
+
 How to run/test
 
 1. To run the Spring boot application use
