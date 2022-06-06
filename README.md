@@ -22,11 +22,12 @@ Solution:
     2. In ``DotaChallengeApplicationTests`` Total testcases are 10 for all endpoints.
     3. Make sure your java enviornment path is on JRE not JDK (If you will run java on JDK mvn clean test will give error).
 
+How to run/test
 
-To run the Spring boot application use
+1. To run the Spring boot application use
   `mvn spring-boot:run`
 
-To test the solution run 
+2. To test the solution run 
   `mvn clean test`
   
 ![test_case](test_case.png "Optional title")
