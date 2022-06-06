@@ -117,7 +117,7 @@ public class DotaChallengeApplicationTests {
 
 	@Test
 	@Order(7) 
-	public void test_items_for_abyssal_underlord_combat_2() throws Exception {
+	public void test_items_for_centaur_combat_2() throws Exception {
 		mockMvc.perform(get("/api/match/" + matchIdCombat2 + "/" + "centaur" + "/items")
 				.contentType(MediaType.APPLICATION_JSON))
 //         .andDo(print())
@@ -130,7 +130,7 @@ public class DotaChallengeApplicationTests {
 
 	@Test
 	@Order(8) 
-	public void test_spells_for_abyssal_underlord_combat_2() throws Exception {
+	public void test_spells_for_centaur_combat_2() throws Exception {
 		mockMvc.perform(get("/api/match/" + matchIdCombat2 + "/" + "centaur" + "/spells")
 				.contentType(MediaType.APPLICATION_JSON))
 //         .andDo(print())
@@ -140,7 +140,7 @@ public class DotaChallengeApplicationTests {
 
 	@Test
 	@Order(9) 
-	public void test_damage_by_abyssal_underlord_combat_2() throws Exception {
+	public void test_damage_by_centaur_combat_2() throws Exception {
 		mockMvc.perform(get("/api/match/" + matchIdCombat2 + "/" + "centaur" + "/damage")
 				.contentType(MediaType.APPLICATION_JSON))
 //         .andDo(print())
@@ -151,7 +151,7 @@ public class DotaChallengeApplicationTests {
 
 	@Test
 	@Order(10) 
-	public void test_killds_by_abyssal_underlord_combat_2() throws Exception {
+	public void test_killds_by_centaur_combat_2() throws Exception {
 		mockMvc.perform(get("/api/match/" + matchIdCombat2).contentType(MediaType.APPLICATION_JSON))
 				// .andDo(print())
 				.andExpect(status().isOk()).andExpect(jsonPath("$[0].hero", is("centaur")))
