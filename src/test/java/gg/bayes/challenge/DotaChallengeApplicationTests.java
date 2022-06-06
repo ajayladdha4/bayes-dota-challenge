@@ -156,6 +156,6 @@ public class DotaChallengeApplicationTests {
 				// .andDo(print())
 				.andExpect(status().isOk()).andExpect(jsonPath("$[0].hero", is("centaur")))
 				.andExpect(jsonPath("$[0].kills", is(4))).andReturn(); //
-	}
+	} 
 
 }
