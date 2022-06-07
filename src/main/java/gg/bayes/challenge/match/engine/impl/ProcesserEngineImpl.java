@@ -30,7 +30,7 @@ public class ProcesserEngineImpl implements ProcesserEngine{
 		        .lines()) {//Files.lines(Paths.get(fileName))
 
 			//1. filter line 3
-			//2. convert all content to upper case
+			//2. Process Each Line
 			//3. convert it into a List
 			validInvalidQuery = stream
 					.map(line -> createInsertQuery(line, matchId))
